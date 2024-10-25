@@ -29,3 +29,15 @@
 .navbar-toggler {
   background-color: #fff;
 }
+
+.section-title {
+  font-family: Pacifico, cursive;
+}
+
+.section-title span {
+  color: rgb(220, 20, 170);
+}
+
+.text-colored {
+  color: rgb(220, 20, 170);
+}
