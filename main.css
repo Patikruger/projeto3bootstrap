@@ -2,19 +2,21 @@
   font-family: Poppins;
 }
 .navbar {
-  background-color: rgb(3, 3, 3);
+  background-color: black;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
   background-color: #fff;
   color: rgb(220, 20, 170);
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
   color: #fff;
   font-size: 20px;
+  background-color: black;
 }
 
 .navbar-brand {
@@ -40,4 +42,33 @@
 
 .text-colored {
   color: rgb(220, 20, 170);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: rgb(220, 20, 170);
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: rgb(220, 20, 170);
+}
+
+.carousel-inner {
+  background-color: blueviolet;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 200px;
+  }
 }
